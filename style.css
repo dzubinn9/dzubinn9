@@ -1,0 +1,56 @@
+body{
+    background-image: url(file:///D:/%D0%92%D0%BE%D0%B2%D0%B0/dish/background.png);
+    color: white;
+}
+.header{
+    background-color: rgb(254, 211, 91);
+}
+h1, h2{
+    text-align: center;
+    font-size: 2.4em;
+}
+.header, table, .container{
+    display: flex;
+}
+img{
+    height: 450px;
+    width: 700px;
+    display: inline-block;
+}
+.header p{
+    width: 800px;
+    display: inline-block;
+    margin: 5px;
+    font-size: 1.2em;
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 47%;
+}
+.ingredients{
+    border: 2px solid white;
+    width: 280px;
+    margin: 10px;
+    padding: 5px;
+    max-height: 400px;
+    background-color: rgb(254, 211, 91);
+}
+
+.container p{
+    width: 300px;
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+}
+iframe{
+    display: inline-block;
+    position: absolute;
+    left: 35%
+}
+.stages th{
+    border: 1px solid white;
+    background-color: rgb(247, 79, 54);
+}
+.stages table{
+    margin: 10px;
+}
